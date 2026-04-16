@@ -2,8 +2,7 @@ function mudar_conteudo_elemento() {
 
   document.getElementById("h1").innerHTML = "Hello JavaScript!";
 }
+function mudar_estilo(){
 
-text-decoration-line: underline;
-text-decoration-style: solid;
-text-decoration-color: blue;
-text-decoration-thickness: 0.2em;
+document.getElementById("paragrafo").style.textAlign = "right";
+}
